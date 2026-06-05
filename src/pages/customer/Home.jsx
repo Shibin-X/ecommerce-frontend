@@ -38,13 +38,13 @@ export default function Home() {
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Link to="/products">
-                <Button size="lg" className="bg-white text-primary-700 hover:bg-primary-50">
+                <Button size="lg" className="bg-white text-black hover:bg-primary-50">
                   <ShoppingBag className="h-5 w-5" />
                   Shop Now
                 </Button>
               </Link>
               <Link to="/register">
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+                <Button size="lg" variant="outline" className="border-white text-black hover:bg-white/10">
                   Create Account
                 </Button>
               </Link>
